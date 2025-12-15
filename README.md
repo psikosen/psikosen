@@ -4,3 +4,4 @@
 
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=psikosen&theme=radical) 
  
+![Activity](https://github-readme-activity-graph.vercel.app/graph?username=psikosen&theme=react-dark)
