@@ -1,0 +1,27 @@
+name: Generate Battle
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Daily at midnight
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: your-username/rakerdos-vs-stringbee@v1  # <-- Change to your repo name
+        with:
+          github_user_name: your-username            # <-- Change to your username
+          outputs: |
+            dist/battle.svg
+            dist/battle-dark.svg?theme=dark
+            dist/battle.gif
+      
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '⚔️ Update Battle'
+          file_pattern: 'dist/*'
