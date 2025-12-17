@@ -6,4 +6,4 @@
  
 ![Activity](https://github-readme-activity-graph.vercel.app/graph?username=psikosen&theme=react-dark)
 
-![Battle Progress](https://raw.githubusercontent.com/psikosen/rakerdos-vs-stringbee/geo/dist/battle.svg)
+![Battle Progress](https://raw.githubusercontent.com/psikosen/rakerdos-vs-stringbee/geo/dist/pokemon-battle.svg)
